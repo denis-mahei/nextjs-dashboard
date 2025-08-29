@@ -32,6 +32,7 @@ export default function Page() {
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           <Image
             src="/hero-desktop.png"
+            priority={true}
             width={1000}
             height={760}
             className="hidden md:block"
@@ -39,6 +40,7 @@ export default function Page() {
           />
           <Image
             src="/hero-mobile.png"
+            priority={true}
             width={500}
             height={620}
             className="block md:hidden"
